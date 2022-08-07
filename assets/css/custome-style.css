@@ -1,0 +1,106 @@
+/***
+ * https://css-tricks.com/ordering-css3-properties/
+ * http://www.456bereastreet.com/archive/201311/cutting_down_on_vendor_prefixes/
+ ***/
+ body {
+    margin: 0;
+    padding: 0 20px;
+    color: #f98262;
+    background: #fffff0;
+  }
+  
+  #timeline {
+    list-style: none;
+    width: 100%;
+    height: 200px;
+    margin: 200px 0 0;
+    border-top: 6px solid #bada55;
+    display: table;
+    border-spacing: 30px 0;
+  }
+  #timeline li {
+    display: table-cell;
+    position: relative;
+    min-width: 100px;
+  }
+  
+  .circle {
+    margin: 0 auto;
+    top: -14px;
+    left: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: #fffff0;
+    border: 6px solid #f98262;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    border: 6px solid #bada55;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 30px;
+    background: #fffff0;
+  }
+  
+  .content:before {
+    content: "";
+    width: 50px;
+    height: 100px;
+    left: 50%;
+    margin-left: -2px;
+    position: absolute;
+  }
+  
+  li.down .content:before {
+    border-left: 4px solid #f98262;
+    border-bottom: 4px solid #f98262;
+    -webkit-border-radius: 0 20px;
+    -moz-border-radius: 0 20px;
+    border-radius: 0 20px;
+  }
+  li.down .avatar {
+    top: 80px;
+    left: 100px;
+  }
+  
+  li.up .content {
+    margin-top: -106px;
+  }
+  li.up .content:before {
+    border-left: 4px solid #f98262;
+  }
+  li.up .date {
+    margin-top: 106px;
+  }
+  li.up .avatar {
+    background: #fffff0;
+    margin-top: -30px;
+  }
+  
+  .rectangle {
+    border: 1px solid #f98262;
+    border-radius: 30px;
+    height: 30px;
+    width: 200px;
+    top: -19px;
+    position: relative;
+    background: #fffff0;
+    line-height: 30px;
+    text-align: center;
+  }
