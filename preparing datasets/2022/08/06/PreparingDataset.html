@@ -4,21 +4,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Title | Computer Vision Algorithms</title>
+<title>Preparing Datasets | Computer Vision Algorithms</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Title" />
+<meta property="og:title" content="Preparing Datasets" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Algorithms Related to COmputer Vision Data or Problems." />
-<meta property="og:description" content="Algorithms Related to COmputer Vision Data or Problems." />
-<link rel="canonical" href="https://madanbaduwal.github.io/cv-algorithms/2022/08/06/PreparingDataset.html" />
-<meta property="og:url" content="https://madanbaduwal.github.io/cv-algorithms/2022/08/06/PreparingDataset.html" />
+<meta name="description" content="A tutorial of Vision Datasets." />
+<meta property="og:description" content="A tutorial of Vision Datasets." />
+<link rel="canonical" href="https://madanbaduwal.github.io/cv-algorithms/preparing%20datasets/2022/08/06/PreparingDataset.html" />
+<meta property="og:url" content="https://madanbaduwal.github.io/cv-algorithms/preparing%20datasets/2022/08/06/PreparingDataset.html" />
 <meta property="og:site_name" content="Computer Vision Algorithms" />
+<meta property="og:image" content="https://madanbaduwal.github.io/cv-algorithms/images/chart-preview.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-08-06T00:00:00-05:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Title" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://madanbaduwal.github.io/cv-algorithms/images/chart-preview.png" />
+<meta property="twitter:title" content="Preparing Datasets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-08-06T00:00:00-05:00","datePublished":"2022-08-06T00:00:00-05:00","description":"Algorithms Related to COmputer Vision Data or Problems.","headline":"Title","mainEntityOfPage":{"@type":"WebPage","@id":"https://madanbaduwal.github.io/cv-algorithms/2022/08/06/PreparingDataset.html"},"url":"https://madanbaduwal.github.io/cv-algorithms/2022/08/06/PreparingDataset.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-08-06T00:00:00-05:00","datePublished":"2022-08-06T00:00:00-05:00","description":"A tutorial of Vision Datasets.","headline":"Preparing Datasets","image":"https://madanbaduwal.github.io/cv-algorithms/images/chart-preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://madanbaduwal.github.io/cv-algorithms/preparing%20datasets/2022/08/06/PreparingDataset.html"},"url":"https://madanbaduwal.github.io/cv-algorithms/preparing%20datasets/2022/08/06/PreparingDataset.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/cv-algorithms/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://madanbaduwal.github.io/cv-algorithms/feed.xml" title="Computer Vision Algorithms" /><link rel="shortcut icon" type="image/x-icon" href="/cv-algorithms/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,7 +75,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-08-06T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Preparing Datasets</h1><p class="page-description">A tutorial of Vision Datasets.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-08-06T00:00:00-05:00" itemprop="datePublished">
         Aug 6, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -83,6 +85,13 @@ window.onload = wrap_img;
     
 </span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/cv-algorithms/categories/#Preparing Datasets">Preparing Datasets</a>
+        
+      
+      </p>
     
 
     
@@ -116,7 +125,9 @@ window.onload = wrap_img;
       </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <!--
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#About">About </a></li>
+</ul><!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -125,34 +136,28 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
+<div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="o">&gt;</span> <span class="n">A</span> <span class="n">tutorial</span> <span class="n">of</span> <span class="n">Vision</span> <span class="n">Datasets</span><span class="o">.</span>
-
-<span class="o">-</span> <span class="n">toc</span><span class="p">:</span> <span class="n">true</span> 
-<span class="o">-</span> <span class="n">badges</span><span class="p">:</span> <span class="n">true</span>
-<span class="o">-</span> <span class="n">comments</span><span class="p">:</span> <span class="n">true</span>
-<span class="o">-</span> <span class="n">categories</span><span class="p">:</span> <span class="p">[</span><span class="n">Preparing</span> <span class="n">Datasets</span><span class="p">]</span>
-<span class="o">-</span> <span class="n">image</span><span class="p">:</span> <span class="n">images</span><span class="o">/</span><span class="n">chart</span><span class="o">-</span><span class="n">preview</span><span class="o">.</span><span class="n">png</span>
-</pre></div>
-
-    </div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="About">
+<a class="anchor" href="#About" aria-hidden="true"><span class="octicon octicon-link"></span></a>About<a class="anchor-link" href="#About"> </a>
+</h1>
+</div>
+</div>
 </div>
 </div>
 
-</div>
-    
-
-</div>
 
 
-
-  </div><a class="u-url" href="/cv-algorithms/2022/08/06/PreparingDataset.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="MadanBaduwal/cv-algorithms"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/cv-algorithms/preparing%20datasets/2022/08/06/PreparingDataset.html" hidden></a>
 </article>
 
       </div>
