@@ -1,4 +1,4 @@
----
+<!-- ---
 toc: true
 layout: post
 description: A minimal example of using markdown with fastpages.
@@ -100,4 +100,4 @@ key: value
 
 
 [^1]: This is the footnote.
-
+ -->
