@@ -4,7 +4,7 @@
  ***/
  body {
     margin: 0;
-    padding: 0 20px;
+    padding: 0 0px;
     color: #f98262;
     background: #fffff0;
   }
@@ -12,7 +12,7 @@
   #timeline {
     list-style: none;
     width: 100%;
-    height: 130px;
+    height: 80px;
     margin: 200px 0 0;
     border-top: 6px solid #bada55;
     display: table;
