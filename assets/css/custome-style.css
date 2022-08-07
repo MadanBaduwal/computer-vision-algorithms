@@ -41,6 +41,7 @@
   .content {
     text-align: center;
     position: relative;
+    width: 100px;
   }
   
   .avatar {
@@ -77,6 +78,7 @@
   li.down .avatar {
     top: 80px;
     left: 100px;
+    width: 100px;
   }
   
   li.up .content {
@@ -91,6 +93,7 @@
   li.up .avatar {
     background: #fffff0;
     margin-top: -30px;
+    width: 100px;
   }
   
   .rectangle {
