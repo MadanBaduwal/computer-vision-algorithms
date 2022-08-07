@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: cv algorithms
-description: computer vision algorithms.
+title: Aomputer Vision Algorithms
+description: Algorithms Related to COmputer Vision Data or Problems.
 github_username: MadanBaduwal
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "cv-algorithms"
