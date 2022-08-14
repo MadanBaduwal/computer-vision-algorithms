@@ -4,7 +4,7 @@
         "post0": {
             "title": "Preparing Datasets",
             "content": "About . In this tutorial we will learn how to load and preprocess data for computer vision algorithms. . ! .",
-            "url": "https://madanbaduwal.github.io/cv-algorithms/preparing%20datasets/2022/08/13/PreparingDataset.html",
+            "url": "https://madanbaduwal.github.io/computer-vision-algorithms/preparing%20datasets/2022/08/13/PreparingDataset.html",
             "relUrl": "/preparing%20datasets/2022/08/13/PreparingDataset.html",
             "date": " • Aug 13, 2022"
         }
@@ -15,7 +15,7 @@
         ,"post1": {
             "title": "LeNet-5",
             "content": "About . In this tutorial we will implement LeNet-5 from official paper. We will only use Numpy and OOP. . Reference | . 1. Import Packages,Functions, and Objects . import numpy as np import sys import pickle import matplotlib.pyplot as plt import matplotlib.image as mpimg import matplotlib as mpl import time .",
-            "url": "https://madanbaduwal.github.io/cv-algorithms/convolutional%20neural%20networks/1998/01/01/LeNet-5.html",
+            "url": "https://madanbaduwal.github.io/computer-vision-algorithms/convolutional%20neural%20networks/1998/01/01/LeNet-5.html",
             "relUrl": "/convolutional%20neural%20networks/1998/01/01/LeNet-5.html",
             "date": " • Jan 1, 1998"
         }
@@ -30,7 +30,7 @@
       ,"page1": {
           "title": "About Me",
           "content": "",
-          "url": "https://madanbaduwal.github.io/cv-algorithms/_pages/about.html",
+          "url": "https://madanbaduwal.github.io/computer-vision-algorithms/_pages/about.html",
           "relUrl": "/_pages/about.html",
           "date": ""
       }
@@ -56,7 +56,7 @@
       ,"page8": {
           "title": "",
           "content": "{“/_pages/about.html”:”https://madanbaduwal.github.io/”} .",
-          "url": "https://madanbaduwal.github.io/cv-algorithms/redirects.json",
+          "url": "https://madanbaduwal.github.io/computer-vision-algorithms/redirects.json",
           "relUrl": "/redirects.json",
           "date": ""
       }
@@ -70,7 +70,7 @@
       ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
-          "url": "https://madanbaduwal.github.io/cv-algorithms/robots.txt",
+          "url": "https://madanbaduwal.github.io/computer-vision-algorithms/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }
